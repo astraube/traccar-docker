@@ -7,6 +7,14 @@ Official website: <https://www.traccar.org>
 DockerHub image: <https://hub.docker.com/r/traccar/traccar>  
 Maintainer: [Maxim Zalysin](https://github.com/magna-z)
 
+## Build in heroku:
+1. **Create work directories:**
+    ```bash
+    git add .
+    git commit -am "go build"
+    git push heroku master
+    ```
+
 ## Available tags:
 #### 4.X
 - **4.12-alpine**, **4-alpine**, **alpine**, **4.12**, **4**, **latest** ![](https://img.shields.io/microbadger/layers/traccar/traccar/4.12-alpine) ![](https://img.shields.io/docker/image-size/traccar/traccar/4.12-alpine)
